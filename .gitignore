@@ -1,0 +1,16 @@
+# Ignore MongoDB configuration files
+application-dev.properties
+application-prod.properties
+application-local.properties
+*.yml
+*.properties
+
+# If you store MongoDB-related credentials in a separate file
+config/mongodb-credentials.properties
+
+# Ignore sensitive local files
+*.local
+
+# Ignore any MongoDB dump or database files
+dump/
+data/
